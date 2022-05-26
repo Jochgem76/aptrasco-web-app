@@ -77,6 +77,13 @@ const Businesses = [
         id: "aptrasco",
         imageUrl: "https://res.cloudinary.com/dqvs8sk1o/image/upload/w_600,h_600,c_fill/v1652952729/textile.jpg",
         location: "Worldwide"
+    },
+    {
+        title: "More businesses soon . . .",
+        url: "/whyus",
+        id: "more_soon",
+        imageUrl: "https://res.cloudinary.com/dqvs8sk1o/image/upload/e_grayscale/w_600,h_600,c_fill/v1652933452/general-trading.jpg",
+        location: "Worldwide"
     }]
 
 const BusinessCards = () => {
