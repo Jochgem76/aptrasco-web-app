@@ -5,7 +5,7 @@ import { Fade } from "react-awesome-reveal";
 const IndustryCard = ({ item }) => {
     return (
         <article className="w-full md:w-1/2 lg:w-1/3">
-            <div className="p-0.5">
+            <div className="p-2">
                 <div className="relative overflow-hidden">
                     <Image
                         priority={true}

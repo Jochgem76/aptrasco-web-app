@@ -2,6 +2,7 @@
 const locations = {
     BD: {
         country: "Bangladesh",
+        short: "Chi",
         addressLineOne: "House 56, Road No 2, Block C",
         addressLineTwo: "Sugandha R/A, Chittagong",
         phoneOne: "+88 (0) 18 193 756 76",
@@ -12,6 +13,7 @@ const locations = {
     },
     MY: {
         country: "Malaysia",
+        short: "Kua",
         addressLineOne: "J-02-10, Solaris Mont Kiara",
         addressLineTwo: "Jalan Solaris, Mont Kiara, 50480 Kuala Lumpur",
         phoneOne: "+60 (0) 36 413 48 68",
@@ -27,23 +29,24 @@ const OfficeCard = () => {
         <article className="flex flex-wrap">
             <div className="w-full lg:w-1/2">
                 <div className="px-12 lg:px-24 pt-10 lg:pt-8">
-                    <div className="text-4xl font-extralight">{locations.BD.country}</div>
+                    <div className="text-6xl font-bold">{locations.BD.short}</div>
+                    <div className="text-3xl font-extralight">{locations.BD.country}</div>
                     <div className="text-2xl mt-8 font-extralight">{locations.BD.phoneOne}</div>
                     <div className="text-2xl mt-2 font-extralight">{locations.BD.phoneTwo}</div>
                 </div>
-                <div className="px-12 lg:px-24 pt-8">
+                <div className="px-12 lg:px-24 pt-6">
                     <div className="text-md font-semibold">Address</div>
                     <div className="text-md mt-1 font-extralight">{locations.BD.addressLineOne}</div>
                     <div className="text-md mt-1 font-extralight">{locations.BD.addressLineTwo}</div>
                     <div className="text-md mt-1 font-extralight">{locations.BD.country}</div>
                 </div>
                 <div className="lg:flex lg:inline-flex">
-                    <div className="px-12 lg:px-24 pt-8">
+                    <div className="px-12 lg:px-24 pt-6">
                         <div className="text-md font-semibold">Languages</div>
                         <div className="text-md mt-1 font-extralight">{locations.BD.languages[0]}</div>
                         <div className="text-md mt-1 font-extralight">{locations.BD.languages[1]}</div>
                     </div>
-                    <div className="px-12 lg:px-24 py-8">
+                    <div className="px-12 lg:px-24 py-6">
                         <div className="text-md font-semibold">Reach</div>
                         <div className="text-md mt-1 font-extralight">{locations.BD.reach[0]}</div>
                     </div>
@@ -64,23 +67,24 @@ const OfficeCard = () => {
             </div>
             <div className="w-full lg:w-1/2">
                 <div className="px-12 lg:px-24 pt-10 lg:pt-8">
-                    <div className="text-4xl font-extralight">{locations.MY.country}</div>
+                    <div className="text-6xl font-bold">{locations.MY.short}</div>
+                    <div className="text-3xl font-extralight">{locations.MY.country}</div>
                     <div className="text-2xl mt-8 font-extralight">{locations.MY.phoneOne}</div>
                 </div>
-                <div className="px-12 lg:px-24 pt-8">
+                <div className="px-12 lg:px-24 pt-6">
                     <div className="text-md font-semibold">Address</div>
                     <div className="text-md mt-1 font-extralight">{locations.MY.addressLineOne}</div>
                     <div className="text-md mt-1 font-extralight">{locations.MY.addressLineTwo}</div>
                     <div className="text-md mt-1 font-extralight">{locations.MY.country}</div>
                 </div>
                 <div className="lg:flex lg:inline-flex">
-                    <div className="px-12 lg:px-24 pt-8">
+                    <div className="px-12 lg:px-24 pt-6">
                         <div className="text-md font-semibold">Languages</div>
                         <div className="text-md mt-1 font-extralight">{locations.MY.languages[0]}</div>
                         <div className="text-md mt-1 font-extralight">{locations.MY.languages[1]}</div>
                         <div className="text-md mt-1 font-extralight">{locations.MY.languages[2]}</div>
                     </div>
-                    <div className="px-12 lg:px-24 py-8">
+                    <div className="px-12 lg:px-24 py-6">
                         <div className="text-md font-semibold">Reach</div>
                         <div className="text-md mt-1 font-extralight">{locations.MY.reach[0]}</div>
                         <div className="text-md mt-1 font-extralight">{locations.MY.reach[1]}</div>
