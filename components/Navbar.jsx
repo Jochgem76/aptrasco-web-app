@@ -93,7 +93,7 @@ const Navbar = () => {
 
                 </div>
                 <div className='md:hidden mr-4' onClick={handleClick}>
-                    {!nav ? <HiDotsVertical fontSize={25} className="text-blue-50 cursor-pointer" /> : <MdClose fontSize={25} className="text-blue-50 cursor-pointer" />}
+                    {!nav ? <HiDotsVertical fontSize={45} className="text-blue-50 cursor-pointer" /> : <MdClose fontSize={45} className="text-blue-50 cursor-pointer" />}
                 </div>
             </div>
 
