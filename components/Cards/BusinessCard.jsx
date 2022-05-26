@@ -20,10 +20,9 @@ const BusinessCard = ({ item }) => {
                     </div>
                     <div className="bg-gray-800/[.50] absolute w-full py-4 top-20 inset-x-0 text-left px-6">
                         <Fade>
-                            <div className="text-xl lg:text-3xl font-light text-white leading-10">{item.title}</div>
+                            <div className="text-2xl lg:text-3xl font-light text-white leading-10">{item.title}</div>
                         </Fade>
-
-                        <div className="text-md font-regular text-white leading-4 mt-6">
+                        <div className="text-sm lg:text-md font-regular text-white leading-4 mt-6">
                             <Link href={item.url}>
                                 <a className="inline-flex uppercase">
                                     Find out more

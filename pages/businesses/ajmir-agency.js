@@ -1,5 +1,6 @@
 import Widget from "../../components/Widget";
 import HeaderImage from "../../components/HeaderImage";
+import AjmirTwoImages from "../../components/AjmirTwoImages";
 
 const AjmirShipping = {
     headerTitle: "Ajmir Agency",
@@ -16,6 +17,7 @@ const AjmirAgency = ({ }) => {
             <Widget
                 title="Ajmir Water Transport Agency"
                 sub="An international logistics agency that facilitates the transportation between suppliers, manufacturers, distributors and retailers. This includes sea freight forwarding. The agency’s mission is to help reduce transit time and shipping costs." />
+            <AjmirTwoImages />
         </>
     )
 };
