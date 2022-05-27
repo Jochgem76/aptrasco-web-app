@@ -3,7 +3,7 @@ import IndustryCard from "./Cards/IndustryCard";
 const Industries = [
     {
         title: "General Trading",
-        url: "/industries/general-trading",
+        url: "https://www.dshotelsupply.com/",
         id: "trading",
         imageUrl: "https://res.cloudinary.com/dqvs8sk1o/image/upload/e_brightness:-20/w_600,h_600,c_fill/v1652933452/general-trading.jpg",
         location: "Worldwide",
@@ -11,7 +11,7 @@ const Industries = [
     },
     {
         title: "Shipping Line",
-        url: "/industries/shipping-line",
+        url: "/businesses/ajmir-agency",
         id: "shipping",
         imageUrl: "https://res.cloudinary.com/dqvs8sk1o/image/upload/e_brightness:-20/w_600,h_600,c_fill/v1652933189/shipping.jpg",
         location: "Bangladesh",
@@ -19,7 +19,7 @@ const Industries = [
     },
     {
         title: "Automatic Label Printing",
-        url: "/industries/label-printing",
+        url: "/businesses/teccare",
         id: "printing",
         imageUrl: "https://res.cloudinary.com/dqvs8sk1o/image/upload/e_brightness:-20/w_600,h_600,c_fill/v1653010248/printing.jpg",
         location: "Bangladesh",
@@ -27,7 +27,7 @@ const Industries = [
     },
     {
         title: "Infrastructure & Construction",
-        url: "/industries/infrastructure-and-construction",
+        url: "/businesses/aptrasco",
         id: "infrastructure",
         imageUrl: "https://res.cloudinary.com/dqvs8sk1o/image/upload/e_brightness:-20/w_600,h_600,c_fill/v1652933723/infrastructure.jpg",
         location: "Worldwide",
@@ -35,7 +35,7 @@ const Industries = [
     },
     {
         title: "Agriculture",
-        url: "/industries/agriculture",
+        url: "/businesses/nature-fresh",
         id: "agriculture",
         imageUrl: "https://res.cloudinary.com/dqvs8sk1o/image/upload/e_brightness:-20/w_600,h_600,c_fill/v1652933897/agriculture.jpg",
         location: "Bangladesh & Malaysia",
@@ -43,7 +43,7 @@ const Industries = [
     },
     {
         title: "Textile & Apparel",
-        url: "/industries/textile-and-apparel",
+        url: "/businesses/aaftex",
         id: "textile",
         imageUrl: "https://res.cloudinary.com/dqvs8sk1o/image/upload/e_brightness:-20/w_600,h_600,c_fill/v1652952729/textile.jpg",
         location: "Bangladesh",
