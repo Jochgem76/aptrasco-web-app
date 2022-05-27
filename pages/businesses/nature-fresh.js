@@ -1,9 +1,11 @@
 import Widget from "../../components/Widget";
 import HeaderImage from "../../components/HeaderImage";
 
+import NatureFreshHeader from '../../img/Nature_fresh_header.jpg';
+
 const Nature = {
     headerTitle: "Nature Fresh",
-    imageUrl: "https://res.cloudinary.com/dqvs8sk1o/image/upload/v1653467132/nature_fresh_header.jpg",
+    imageUrl: NatureFreshHeader,
     headerUrl: "Nature Fresh"
 
 };
