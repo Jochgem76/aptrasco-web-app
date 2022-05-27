@@ -3,7 +3,7 @@ import HeaderImage from "../../components/HeaderImage";
 
 const AaftexFashion = {
     headerTitle: "Aaftex Fashion",
-    imageUrl: "https://res.cloudinary.com/dqvs8sk1o/image/upload/v1653467132/nature_fresh_header.jpg",
+    imageUrl: "https://res.cloudinary.com/dqvs8sk1o/image/upload/v1653629657/aaftex_header.jpg",
     headerUrl: "Aaftex Fashion"
 
 };
