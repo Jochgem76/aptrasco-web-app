@@ -29,7 +29,7 @@ export default (req, res) => {
         `
     }
 
-    transporter.sendMail(mailData, (err, info) => {
+    transporter.sendMail(mailData, function (err, info) {
         if (err)
             return console.log(`transporter error ${err}`)
         else
