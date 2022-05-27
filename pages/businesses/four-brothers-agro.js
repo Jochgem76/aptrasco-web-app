@@ -3,7 +3,7 @@ import HeaderImage from "../../components/HeaderImage";
 
 const Brothers = {
     headerTitle: "Four Brothers Agro",
-    imageUrl: "https://res.cloudinary.com/dqvs8sk1o/image/upload/v1653467132/nature_fresh_header.jpg",
+    imageUrl: "https://res.cloudinary.com/dqvs8sk1o/image/upload/v1653615560/fourBrothers_header.jpg",
     headerUrl: "Four Brothers Agro"
 
 };

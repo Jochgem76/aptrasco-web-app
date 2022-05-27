@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-const AjmirCard = ({ item }) => {
+const HorizontalCard = ({ item }) => {
     return (
         <article className="w-full lg:w-1/2">
             <div className="p-2">
@@ -19,4 +19,4 @@ const AjmirCard = ({ item }) => {
     )
 }
 
-export default AjmirCard;
+export default HorizontalCard;

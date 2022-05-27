@@ -1,9 +1,9 @@
 import HorizontalCard from "./Cards/HorizontalCard";
 
-import ImageOne from '../img/Ajmir_1.jpg';
-import ImageTwo from '../img/Ajmir_2.jpg';
+import ImageOne from '../img/Jamuna_1.jpg';
+import ImageTwo from '../img/Jamuna_2.jpg';
 
-const AjmirCards = [
+const JamunaHorCards = [
     {
         id: 1,
         imageUrl: ImageOne
@@ -14,14 +14,14 @@ const AjmirCards = [
     }
 ]
 
-const AjmirTwoImages = () => {
+const AjmirTwoHorImages = () => {
     return (
         <section>
             <div className="flex flex-wrap">
-                {AjmirCards.map((card) => <HorizontalCard item={card} key={card.id} />)}
+                {JamunaHorCards.map((card) => <HorizontalCard item={card} key={card.id} />)}
             </div>
         </section>
     )
 }
 
-export default AjmirTwoImages;
+export default AjmirTwoHorImages;
