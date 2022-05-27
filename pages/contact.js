@@ -23,6 +23,7 @@ const ContactPage = ({ }) => {
                     <p className="text-center lg:text-left text-black text-lg lg:text-xl font-extralight">Email: <span> <a href="mailto:info@aptrasco.com" className="font-light hover:text-blue-400">info@aptrasco.com</a></span></p>
                 </div>
             </div>
+            <ContactForm />
         </>
     )
 };
