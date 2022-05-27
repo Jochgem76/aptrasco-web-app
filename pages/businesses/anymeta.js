@@ -5,7 +5,7 @@ import TextGray from '../../components/TextGray';
 
 const Meta = {
     headerTitle: "AnyMeta",
-    imageUrl: "https://res.cloudinary.com/dqvs8sk1o/image/upload/v1653467132/nature_fresh_header.jpg",
+    imageUrl: "https://res.cloudinary.com/dqvs8sk1o/image/upload/v1653628473/anyMeta_header.jpg",
     headerUrl: "AnyMeta"
 
 };
