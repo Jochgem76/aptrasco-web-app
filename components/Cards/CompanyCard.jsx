@@ -15,7 +15,7 @@ const CompanyCard = ({ item }) => {
                         height={300}
                         layout="responsive"
                     />
-                    <div className="absolute w-full py-2.5 top-10 lg:top-20 inset-x-0 text-left left-8 pr-10">
+                    <div className="bg-gray-800/[.50] absolute w-full py-4 top-10 lg:top-20 inset-x-0 text-left pl-8 pr-10">
                         <Fade>
                             <div className="text-4xl lg:text-5xl font-extralight text-white leading-8">{item.title}</div>
                         </Fade>
