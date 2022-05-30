@@ -1,9 +1,11 @@
 import Widget from "../../components/Widget";
 import HeaderImage from "../../components/HeaderImage";
 
+import header from '../../img/whyus-header.jpg'
+
 const Trading = {
     headerTitle: "ML Big Trading",
-    imageUrl: "https://res.cloudinary.com/dqvs8sk1o/image/upload/v1653467132/nature_fresh_header.jpg",
+    imageUrl: header,
     headerUrl: "ML Big Trading"
 
 };

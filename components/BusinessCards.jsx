@@ -10,6 +10,7 @@ import jamuna from '../img/jamuna600x600.jpg'
 import aaftex from '../img/aaftex600x600.jpg'
 import ocunapse from '../img/ocunapse600x600.jpg'
 import textileApparel from '../img/textile600x600.jpg'
+import moreSoon from '../img/general-tradingBW600x600.jpg'
 
 const Businesses = [
     {
@@ -93,7 +94,7 @@ const Businesses = [
         title: "More businesses soon . . .",
         url: "/whyus",
         id: "more_soon",
-        imageUrl: textileApparel,
+        imageUrl: moreSoon,
         location: "Worldwide"
     }]
 

@@ -1,11 +1,12 @@
 import Widget from "../../components/Widget";
 import HeaderImage from "../../components/HeaderImage";
 
+import header from '../../img/Teccare-header.jpg'
+
 const AjmirShipping = {
     headerTitle: "TecCare",
-    imageUrl: "https://res.cloudinary.com/dqvs8sk1o/image/upload/v1653466834/TecCare.jpg",
+    imageUrl: header,
     headerUrl: "TecCare"
-
 };
 
 const TecCare = ({ }) => {
