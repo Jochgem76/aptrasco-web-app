@@ -1,9 +1,11 @@
 import Widget from "../../components/Widget";
 import HeaderImage from "../../components/HeaderImage";
 
+import header from '../../img/fourBrothers_header.jpg'
+
 const Brothers = {
     headerTitle: "Four Brothers Agro",
-    imageUrl: "https://res.cloudinary.com/dqvs8sk1o/image/upload/v1653615560/fourBrothers_header.jpg",
+    imageUrl: header,
     headerUrl: "Four Brothers Agro"
 
 };

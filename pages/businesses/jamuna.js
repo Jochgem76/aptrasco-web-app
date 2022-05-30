@@ -3,9 +3,11 @@ import HeaderImage from "../../components/HeaderImage";
 import JamunaTwoHorImages from "../../components/JamunaTwoHorImages";
 import JamunaTwoSquareImages from "../../components/JamunaTwoSquareImages";
 
+import header from '../../img/jamuna-header.jpg'
+
 const JamunaTrims = {
     headerTitle: "Jamuna",
-    imageUrl: "https://res.cloudinary.com/dqvs8sk1o/image/upload/v1653467132/nature_fresh_header.jpg",
+    imageUrl: header,
     headerUrl: "Jamuna"
 
 };

@@ -1,9 +1,11 @@
 import Widget from "../components/Widget";
 import HeaderImage from "../components/HeaderImage";
 
+import header from '../img/privacy-header.jpg'
+
 const Privacy = {
     headerTitle: "Privacy and data protection",
-    imageUrl: "https://res.cloudinary.com/dqvs8sk1o/image/upload/e_brightness:-20/v1653026968/privacy.jpg",
+    imageUrl: header,
     headerUrl: "Privacy Policy"
 
 };

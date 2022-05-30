@@ -2,9 +2,11 @@ import HeaderImage from "../components/HeaderImage";
 import Widget from "../components/Widget";
 import BusinessCards from "../components/BusinessCards";
 
+import header from '../img/businesses-header.jpg'
+
 const Business = {
     headerTitle: "Our Businesses",
-    imageUrl: "https://res.cloudinary.com/dqvs8sk1o/image/upload/e_brightness:-20/v1653015691/businesses.jpg",
+    imageUrl: header,
     headerUrl: "Businesses"
 
 };

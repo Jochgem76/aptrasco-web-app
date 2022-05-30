@@ -1,9 +1,11 @@
 import Widget from "../components/Widget";
 import HeaderImage from "../components/HeaderImage";
 
+import header from '../img/cookies-header.jpg'
+
 const Cookie = {
     headerTitle: "Cookie Policy",
-    imageUrl: "https://res.cloudinary.com/dqvs8sk1o/image/upload/e_brightness:-20/v1653031435/cookies.jpg",
+    imageUrl: header,
     headerUrl: "Cookie Policy"
 
 };

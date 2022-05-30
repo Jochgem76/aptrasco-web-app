@@ -1,9 +1,11 @@
 import Widget from "../../components/Widget";
 import HeaderImage from "../../components/HeaderImage";
 
+import header from '../../img/aaftex_header.jpg'
+
 const AaftexFashion = {
     headerTitle: "Aaftex Fashion",
-    imageUrl: "https://res.cloudinary.com/dqvs8sk1o/image/upload/v1653629657/aaftex_header.jpg",
+    imageUrl: header,
     headerUrl: "Aaftex Fashion"
 
 };

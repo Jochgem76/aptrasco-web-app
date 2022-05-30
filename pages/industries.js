@@ -2,9 +2,11 @@ import HeaderImage from "../components/HeaderImage";
 import Widget from "../components/Widget";
 import IndustryCards from "../components/IndustryCards";
 
+import header from '../img/industries-header.jpg'
+
 const Industry = {
     headerTitle: "Our Industries",
-    imageUrl: "https://res.cloudinary.com/dqvs8sk1o/image/upload/e_brightness:-20/v1653274698/industries.jpg",
+    imageUrl: header,
     headerUrl: "Industries"
 
 };

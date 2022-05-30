@@ -2,11 +2,13 @@ import HeaderImage from '../components/HeaderImage';
 import TextWhite from '../components/TextWhite';
 import TextGray from '../components/TextGray';
 
+import header from '../img/whyus-header.jpg'
+
 const WhyUs = ({ }) => {
 
     const Why = {
         headerTitle: "Why us",
-        imageUrl: "    https://res.cloudinary.com/dqvs8sk1o/image/upload/e_brightness:-25/v1653457494/whyus.jpg",
+        imageUrl: header,
         headerUrl: "why us"
 
     };

@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 
-import coverImage from '../../img/Header-2500x2000.jpg';
+import coverImage from '../../img/home.jpg';
 
 
 const Welcome = () => {
@@ -12,7 +12,7 @@ const Welcome = () => {
                     className={'image'}
                     priority={true}
                     alt="Aptrasco Header"
-                    src="https://res.cloudinary.com/dqvs8sk1o/image/upload/e_brightness:-20/v1653362457/home.jpg"
+                    src={coverImage}
                     layout="fill"
                 />
             </div>

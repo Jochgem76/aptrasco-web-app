@@ -2,9 +2,11 @@ import HeaderImage from "../components/HeaderImage";
 import Widget from "../components/Widget";
 import OfficeCard from "../components/Cards/OfficeCard";
 
+import header from '../img/offices-header.jpg'
+
 const OfficeHeader = {
     headerTitle: "Our Offices",
-    imageUrl: "https://res.cloudinary.com/dqvs8sk1o/image/upload/v1653359646/offices.jpg",
+    imageUrl: header,
     headerUrl: "Offices"
 
 };

@@ -1,9 +1,11 @@
 import Widget from "../components/Widget";
 import HeaderImage from "../components/HeaderImage";
 
+import header from '../img/terms-header.jpg'
+
 const Terms = {
     headerTitle: "Terms and Conditions",
-    imageUrl: "https://res.cloudinary.com/dqvs8sk1o/image/upload/e_brightness:-20/v1653030971/termsAndConditions.jpg",
+    imageUrl: header,
     headerUrl: "Terms and Conditions"
 
 };

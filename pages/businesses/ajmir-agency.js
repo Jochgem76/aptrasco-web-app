@@ -2,9 +2,11 @@ import Widget from "../../components/Widget";
 import HeaderImage from "../../components/HeaderImage";
 import AjmirTwoImages from "../../components/AjmirTwoImages";
 
+import header from '../../img/ajmir-header.jpg'
+
 const AjmirShipping = {
     headerTitle: "Ajmir Agency",
-    imageUrl: "https://res.cloudinary.com/dqvs8sk1o/image/upload/v1653464155/ajmir.jpg",
+    imageUrl: header,
     headerUrl: "Ajmir Agency"
 
 };

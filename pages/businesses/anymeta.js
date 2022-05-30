@@ -3,9 +3,11 @@ import HeaderImage from "../../components/HeaderImage";
 import TextWhite from '../../components/TextWhite';
 import TextGray from '../../components/TextGray';
 
+import header from '../../img/anyMeta_header.jpg'
+
 const Meta = {
     headerTitle: "AnyMeta",
-    imageUrl: "https://res.cloudinary.com/dqvs8sk1o/image/upload/v1653628473/anyMeta_header.jpg",
+    imageUrl: header,
     headerUrl: "AnyMeta"
 
 };

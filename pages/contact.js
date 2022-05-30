@@ -2,10 +2,12 @@ import Widget from "../components/Widget";
 import HeaderImage from "../components/HeaderImage";
 import ContactForm from "../components/ContactForm";
 
+import header from '../img/contact-us-header.jpg'
+
 
 const Contact = {
     headerTitle: "Get in touch",
-    imageUrl: "https://res.cloudinary.com/dqvs8sk1o/image/upload/v1653278080/contact-us.jpg",
+    imageUrl: header,
     headerUrl: "Contact"
 
 };

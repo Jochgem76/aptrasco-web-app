@@ -3,9 +3,11 @@ import HeaderImage from "../../components/HeaderImage";
 import TextWhite from '../../components/TextWhite';
 import TextGray from '../../components/TextGray';
 
+import header from '../../img/ocunapse_header.jpg'
+
 const OcunapseIT = {
     headerTitle: "Ocunapse",
-    imageUrl: "https://res.cloudinary.com/dqvs8sk1o/image/upload/e_brightness:-20/v1653553202/ocunapse_header.jpg",
+    imageUrl: header,
     headerUrl: "Ocunapse"
 
 };

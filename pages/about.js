@@ -2,9 +2,11 @@ import HeaderImage from '../components/HeaderImage';
 import TextWhite from '../components/TextWhite';
 import TextGray from '../components/TextGray';
 
+import header from '../img/about-us-header.jpg'
+
 const About = {
     headerTitle: "About us",
-    imageUrl: "https://res.cloudinary.com/dqvs8sk1o/image/upload/e_brightness:-20/v1653270991/about-us.jpg",
+    imageUrl: header,
     headerUrl: "About"
 
 };

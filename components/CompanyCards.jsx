@@ -1,33 +1,38 @@
 import CompanyCard from "./Cards/CompanyCard";
 
+import aptrasco from '../img/aptrasco600x300.jpg'
+import businesses from '../img/industries600x300.jpg'
+import clients from '../img/clients600x300.jpg'
+import getInTouch from '../img/contact-us600x300.jpg'
+
 const AptrascoCards = [
     {
         title: "Why Aptrasco?",
         subLink: "How can we help?",
         url: "/whyus",
         id: "aptrasco",
-        imageUrl: "https://res.cloudinary.com/dqvs8sk1o/image/upload/w_600,h_300,c_fill/v1653015386/aptrasco.jpg",
+        imageUrl: aptrasco
     },
     {
         title: "Our Businesses",
         subLink: "Take a Look",
         url: "/businesses",
         id: "businesses",
-        imageUrl: "https://res.cloudinary.com/dqvs8sk1o/image/upload/e_brightness:-20/w_600,h_300,c_fill/v1653015691/industries.jpg",
+        imageUrl: businesses
     },
     {
         title: "Clients",
         subLink: "Who we work with",
         url: "/clients",
         id: "clients",
-        imageUrl: "https://res.cloudinary.com/dqvs8sk1o/image/upload/e_brightness:-20/w_600,h_300,c_fill/v1653278231/clients.jpg",
+        imageUrl: clients
     },
     {
         title: "Get in touch",
         subLink: "Business queries",
         url: "/contact",
         id: "contact",
-        imageUrl: "https://res.cloudinary.com/dqvs8sk1o/image/upload/w_600,h_300,c_fill/v1653278080/contact-us.jpg",
+        imageUrl: getInTouch
     }
 ]
 
