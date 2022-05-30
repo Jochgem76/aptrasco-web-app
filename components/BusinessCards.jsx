@@ -3,7 +3,7 @@ import BusinessCard from "./Cards/BusinessCard";
 import generalTrading from '../img/general-trading600x600.jpg'
 import shippingLine from '../img/shipping600x600.jpg'
 import labelPrinting from '../img/printing600x600.jpg'
-import natureFresh from '../img/nature_fresh600x600.jpg'
+import natureFresh from '../img/Nature_fresh600x600.jpg'
 import fourBrothers from '../img/four_brothers600x600.jpg'
 import anyMeta from '../img/anymeta600x600.jpg'
 import jamuna from '../img/jamuna600x600.jpg'
