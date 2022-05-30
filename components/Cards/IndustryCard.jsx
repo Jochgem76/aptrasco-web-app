@@ -35,7 +35,7 @@ const IndustryCard = ({ item }) => {
                         </div>
                         <hr className="mt-1 opacity-80 w-1/2" />
                     </div>
-                    <p className="absolute bottom-10 text-left left-8 leading-6 text-md font-light text-gray-50">
+                    <p className="absolute bottom-10 text-left mx-8 lg:leading-6 text-[10px] lg:text-sm font-light text-gray-50">
                         {item.desc}
                     </p>
                 </div>

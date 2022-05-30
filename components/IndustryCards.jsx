@@ -7,7 +7,7 @@ const Industries = [
         id: "trading",
         imageUrl: "https://res.cloudinary.com/dqvs8sk1o/image/upload/e_brightness:-20/w_600,h_600,c_fill/v1652933452/general-trading.jpg",
         location: "Worldwide",
-        desc: "12+ Years of experience in General Trading"
+        desc: "With over 12 years of experience in business trade, we help your business to grow and expand,and we help industries to innovate and grow."
     },
     {
         title: "Shipping Line",
@@ -15,7 +15,7 @@ const Industries = [
         id: "shipping",
         imageUrl: "https://res.cloudinary.com/dqvs8sk1o/image/upload/e_brightness:-20/w_600,h_600,c_fill/v1652933189/shipping.jpg",
         location: "Bangladesh",
-        desc: "Cost-effective Logistics made easy"
+        desc: "An international logistics agency that facilitates the transportation between suppliers, manufacturers, distributors and retailers. This includes sea freight forwarding. The agency’s mission is to help reduce transit time and shipping costs."
     },
     {
         title: "Automatic Label Printing",
@@ -23,7 +23,7 @@ const Industries = [
         id: "printing",
         imageUrl: "https://res.cloudinary.com/dqvs8sk1o/image/upload/e_brightness:-20/w_600,h_600,c_fill/v1653010248/printing.jpg",
         location: "Bangladesh",
-        desc: "",
+        desc: "From fancy promotional print products to high-quality product label printing, we offer a broad range of high-quality label printing to promote your business.",
     },
     {
         title: "Infrastructure & Construction",
@@ -31,7 +31,7 @@ const Industries = [
         id: "infrastructure",
         imageUrl: "https://res.cloudinary.com/dqvs8sk1o/image/upload/e_brightness:-20/w_600,h_600,c_fill/v1652933723/infrastructure.jpg",
         location: "Worldwide",
-        desc: ""
+        desc: "With more than 12 years of experience and 24 global affiliations, Aptrasco makes building connections with international third-parties, government officials, and top-level management possible."
     },
     {
         title: "Agriculture",
@@ -39,7 +39,7 @@ const Industries = [
         id: "agriculture",
         imageUrl: "https://res.cloudinary.com/dqvs8sk1o/image/upload/e_brightness:-20/w_600,h_600,c_fill/v1652933897/agriculture.jpg",
         location: "Bangladesh & Malaysia",
-        desc: "Breeding & Farming done right"
+        desc: "We created Malaysia’s leading fruits and vegetables import and export wholesaler."
     },
     {
         title: "Textile & Apparel",
@@ -47,7 +47,7 @@ const Industries = [
         id: "textile",
         imageUrl: "https://res.cloudinary.com/dqvs8sk1o/image/upload/e_brightness:-20/w_600,h_600,c_fill/v1652952729/textile.jpg",
         location: "Bangladesh",
-        desc: "Experts in Textile & Apparel production"
+        desc: "We are experts in Textile & Apparel production. Our companies are known for their craftsmanship, they act as a buying house for international fashion wholesale manufacturers (OEM and ODM) and retailers."
     }]
 
 
