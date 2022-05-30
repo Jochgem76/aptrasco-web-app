@@ -33,7 +33,8 @@ export default (req, res) => {
         if (err)
             return console.log(`transporter error ${err}`)
         else
-            console.log(info)
+            return
+        // console.log(info)
     })
-    res.status(200)
+    return res.status(200).end()
 };
