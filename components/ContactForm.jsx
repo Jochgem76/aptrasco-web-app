@@ -45,7 +45,9 @@ const ContactForm = () => {
             if (res.status === 200) {
                 console.log('Response succeeded!')
                 setSubmitted(true);
-                router.push("/");
+                setTimeout(function () {
+                    router.push('/')
+                }, 3000);
             }
         })
     }
@@ -137,7 +139,7 @@ const ContactForm = () => {
                         <div className="mt-6 text-center lg:text-left">
                             <button className="text-lg lg-text-left lg:text-xl text-black font-light mb-2 inline-flex">
                                 {submitted ? (
-                                    <p>Form Submitted, thank you!</p>) : (<p>Submit Form</p>
+                                    <p>Thank you!</p>) : (<p>Submit Form</p>
                                 )}
                                 <svg aria-hidden="true" width="11" height="10" fill="none" className="flex-none ml-3 mt-2.5 text-black">
                                     <path d="M5.593 9.638L10.232 5 5.593.36l-.895.89 3.107 3.103H0v1.292h7.805L4.698 8.754l.895.884z" fill="currentColor"></path>
