@@ -10,7 +10,7 @@ const AjmirShipping = {
     headerUrl: "TecCare"
 };
 
-const TecCare = ({ }) => {
+const TecCare = () => {
 
     return (
         <>
