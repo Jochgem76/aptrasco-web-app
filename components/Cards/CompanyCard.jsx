@@ -29,7 +29,7 @@ const CompanyCard = ({ item }) => {
                                 </a>
                             </Link>
                         </div>
-                        <hr className="mt-1 opacity-80 w-1/2" />
+                        <hr className="mt-1 opacity-80 w-3/4" />
                     </div>
                 </div>
             </div>
