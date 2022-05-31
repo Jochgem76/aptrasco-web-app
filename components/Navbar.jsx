@@ -63,7 +63,7 @@ const Navbar = () => {
 
 
     return (
-        <header className='w-screen h-[80px] z-10 white-glassmorphism-header lg:bg-white fixed'>
+        <header className='w-screen h-[80px] z-20 white-glassmorphism-header lg:bg-white fixed'>
             <div className='px-2 flex justify-between items-center w-full h-full'>
                 <div className='flex items-center'>
                     <Link href="/" passHref>
