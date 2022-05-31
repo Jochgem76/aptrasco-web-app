@@ -12,17 +12,27 @@ import ocunapse from '../img/ocunapse600x600.jpg'
 import textileApparel from '../img/textile600x600.jpg'
 import moreSoon from '../img/general-tradingBW600x600.jpg'
 
+import anymeta from '../img/logo/anymeta.png';
+import aptrasco from '../img/logo/aptrasco-logo.png';
+import NatureFreshLogo from '../img/logo/NatureFresh.svg'
+import OcunapseIT from '../img/logo/Ocunapse.svg'
+import mlBig from '../img/logo/MLBig.svg'
+// import mjl from '../img/logo/MJL.svg'
+// import mlY from '../img/logo/MLY.svg'
+
 const Businesses = [
     {
         title: "BTR Trading Solution",
         url: "https://www.dshotelsupply.com/",
         id: "btr_trading",
+        logo: null,
         imageUrl: generalTrading,
         location: "Worldwide"
     },
     {
         title: "Ajmir Water Transport Agency",
         url: "businesses/ajmir-agency",
+        logo: null,
         id: "ajmir",
         imageUrl: shippingLine,
         location: "Bangladesh"
@@ -31,6 +41,7 @@ const Businesses = [
         title: "TecCare",
         url: "businesses/teccare",
         id: "teccare",
+        logo: null,
         imageUrl: labelPrinting,
         location: "Bangladesh"
     },
@@ -38,6 +49,7 @@ const Businesses = [
         title: "Nature Fresh",
         url: "/businesses/nature-fresh",
         id: "nature_fresh",
+        logo: NatureFreshLogo,
         imageUrl: natureFresh,
         location: "Malaysia"
     },
@@ -45,6 +57,7 @@ const Businesses = [
         title: "Four Brothers Agro",
         url: "/businesses/four-brothers-agro",
         id: "four_brothers",
+        logo: null,
         imageUrl: fourBrothers,
         location: "Bangladesh"
     },
@@ -52,6 +65,7 @@ const Businesses = [
         title: "AnyMeta",
         url: "/businesses/anymeta",
         id: "anymeta",
+        logo: anymeta,
         imageUrl: anyMeta,
         location: "Malaysia"
     },
@@ -59,6 +73,7 @@ const Businesses = [
         title: "Jamuna Trims Limited",
         url: "/businesses/jamuna",
         id: "jamuna",
+        logo: null,
         imageUrl: jamuna,
         location: "Bangladesh"
     },
@@ -66,6 +81,7 @@ const Businesses = [
         title: "Aaftex Fashion",
         url: "/businesses/aaftex",
         id: "aaftex",
+        logo: null,
         imageUrl: aaftex,
         location: "Bangladesh"
     },
@@ -73,6 +89,7 @@ const Businesses = [
         title: "ML Big Trading",
         url: "/businesses/ml-big-trading",
         id: "ml_big_trading",
+        logo: mlBig,
         imageUrl: generalTrading,
         location: "Worldwide"
     },
@@ -80,6 +97,7 @@ const Businesses = [
         title: "Ocunapse",
         url: "/businesses/ocunapse",
         id: "ocunapse",
+        logo: OcunapseIT,
         imageUrl: ocunapse,
         location: "Malaysia"
     },
@@ -87,6 +105,7 @@ const Businesses = [
         title: "Aptrasco",
         url: "/businesses/aptrasco",
         id: "aptrasco",
+        logo: aptrasco,
         imageUrl: textileApparel,
         location: "Worldwide"
     },

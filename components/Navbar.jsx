@@ -4,7 +4,7 @@ import { HiDotsVertical } from 'react-icons/hi';
 import { useRouter } from "next/router";
 import Link from 'next/link';
 import Image from 'next/image'
-import logo from '../img/aptrasco-logo.png';
+import logo from '../img/logo/aptrasco-logo.png';
 
 
 const Links = [

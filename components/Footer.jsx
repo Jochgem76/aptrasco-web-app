@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image'
 
-import logo from '../img/aptrasco-logo.png';
+import logo from '../img/logo/aptrasco-logo.png';
 import { FaFacebookSquare, FaTwitter, FaLinkedin } from 'react-icons/fa';
 
 const Company = [
