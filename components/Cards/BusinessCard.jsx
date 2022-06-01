@@ -18,7 +18,7 @@ const BusinessCard = ({ item }) => {
                     <div className="absolute top-6 px-0 z-10">
                         <div className="bg-blue-700/[.75] inline-flex rounded-r-full px-3 py-1 text-sm font-bold text-gray-100 mr-2 mb-2">{item.location}</div>
                     </div>
-                    <div className="bg-gray-800/[.50] absolute w-full pt-20 pb-4 top-0 inset-x-0 text-left px-6">
+                    <div className="bg-gray-800/[.50] absolute w-full pt-20 pb-6 top-0 inset-x-0 text-left px-6">
                         <Fade>
                             <div className="text-2xl lg:text-3xl font-light text-white leading-10">{item.title}</div>
                         </Fade>
@@ -35,13 +35,15 @@ const BusinessCard = ({ item }) => {
                         <hr className="mt-1 opacity-80 w-1/2" />
                     </div>
                     {item.logo != null ?
-                        <div className="absolute bottom-0 px-4 w-1/2 py-4">
-                            <Image
-                                alt="logo"
-                                src={item.logo}
-                                layout="responsive"
-                            />
-                        </div>
+                        <Fade>
+                            <div className="absolute bottom-0 px-4 w-1/2 py-4">
+                                <Image
+                                    alt="logo"
+                                    src={item.logo}
+                                    layout="responsive"
+                                />
+                            </div>
+                        </Fade>
                         : null}
                 </div>
             </div>
