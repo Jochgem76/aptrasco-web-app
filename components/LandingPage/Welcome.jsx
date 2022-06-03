@@ -11,7 +11,7 @@ const Welcome = () => {
                 <Image
                     className={'image'}
                     priority={true}
-                    alt="Aptrasco Header"
+                    alt="Aptrasco Worldwide"
                     src={coverImage}
                     layout="fill"
                 />
