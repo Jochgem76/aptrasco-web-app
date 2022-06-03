@@ -7,8 +7,8 @@ const locations = {
         addressLineTwo: "Sugandha R/A, Chittagong",
         phoneOne: "+88 (0) 18 193 756 76",
         phoneTwo: "+88 (0) 13 211 853 36",
-        reach: ["Regional Asia"],
-        languages: ["Bangla", "English"],
+        reach: ["Regional Asia", "Southeast Asia"],
+        languages: ["Bangla", "English", "Hindi"],
         url: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3689.6743619801214!2d91.82833251499817!3d22.36592134616162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30acd8818d6b6cc9%3A0x65497249b506c0d3!2sAptrasco%20Group!5e0!3m2!1sen!2smy!4v1653372230619!5m2!1sen!2smy",
     },
     MY: {
@@ -45,10 +45,13 @@ const OfficeCard = () => {
                         <div className="text-md font-semibold">Languages</div>
                         <div className="text-md mt-1 font-extralight">{locations.BD.languages[0]}</div>
                         <div className="text-md mt-1 font-extralight">{locations.BD.languages[1]}</div>
+                        <div className="text-md mt-1 font-extralight">{locations.BD.languages[2]}</div>
+
                     </div>
                     <div className="px-12 lg:px-24 py-6">
                         <div className="text-md font-semibold">Reach</div>
                         <div className="text-md mt-1 font-extralight">{locations.BD.reach[0]}</div>
+                        <div className="text-md mt-1 font-extralight">{locations.BD.reach[1]}</div>
                     </div>
                 </div>
             </div>
