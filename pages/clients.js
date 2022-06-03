@@ -17,7 +17,7 @@ const Clients = () => {
         <>
             <HeaderImage title={ClientBase.headerTitle} url={ClientBase.imageUrl} headerUrl={ClientBase.headerUrl} />
             <Widget
-                title="Our client base we've built during the years"
+                title="We have built a large client base during the years."
                 sub="With more than 12 years of experience and 24 global affiliations, Aptrasco makes building connections with international third-parties, government officials, and top-level management possible." />
         </>
     )
