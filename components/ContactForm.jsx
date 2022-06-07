@@ -17,7 +17,7 @@ const ContactForm = () => {
 
     async function submitHandler(data, event) {
         event.preventDefault();
-        console.log('Sending')
+        // console.log('Sending')
 
         const firstname = data.firstName;
         const lastname = data.lastName;
