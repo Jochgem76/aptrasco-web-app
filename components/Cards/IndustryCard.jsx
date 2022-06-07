@@ -15,10 +15,10 @@ const IndustryCard = ({ item }) => {
                         height={600}
                         layout="responsive"
                     />
-                    <div className="absolute top-6 px-0">
+                    <div className="absolute top-4 lg:top-6 px-0">
                         <div className="bg-blue-700/[.75] inline-flex rounded-r-full px-3 py-1 text-sm font-bold text-gray-100 mr-2 mb-2">{item.location}</div>
                     </div>
-                    <div className="bg-gray-800/[.50] absolute w-full py-4 top-20 inset-x-0 text-left px-8 pr-12">
+                    <div className="bg-gray-800/[.50] absolute w-full py-4 top-14 lg:top-20 inset-x-0 text-left px-8 pr-12">
                         <Fade>
                             <div className="text-3xl lg:text-4xl font-extralight text-white leading-10">{item.title}</div>
                         </Fade>

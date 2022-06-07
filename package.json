@@ -8,9 +8,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "export": "next build && next export",
+    "export": "next build && next export -o _static",
     "build": "next build",
-    "start": "next start -p $PORT",
+    "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
@@ -22,7 +22,8 @@
     "react-awesome-reveal": "^3.8.1",
     "react-dom": "18.0.0",
     "react-hook-form": "^7.30.0",
-    "react-icons": "^4.3.1"
+    "react-icons": "^4.3.1",
+    "sharp": "^0.30.6"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.4",

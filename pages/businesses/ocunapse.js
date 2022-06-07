@@ -12,14 +12,14 @@ const OcunapseIT = {
 
 };
 
-const Ocunapse = ({ }) => {
+const Ocunapse = () => {
 
     return (
         <>
             <HeaderImage title={OcunapseIT.headerTitle} url={OcunapseIT.imageUrl} headerUrl={OcunapseIT.headerUrl} />
             <Widget
                 title="Ocunapse Sdn Bhd"
-                sub="Ocunapse envisions the digital breakthroughs of tomorrow from deploying artificial intelligence to developing systems and applications, they mobilize smart solutions for every business challenge." />
+                sub="Ocunapse Digital Solutions envisions the digital breakthroughs of tomorrow from deploying artificial intelligence to developing systems and applications, they mobilize smart solutions for every business challenge." />
             <TextGray
                 title="Ocunapse Vision"
                 parOne="As the proud digital arm of Aptrasco, we take delight in expanding your business by supplying leading technology to capitalize on emerging economic opportunities."

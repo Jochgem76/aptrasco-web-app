@@ -14,7 +14,7 @@ const Industries = [
         id: "trading",
         imageUrl: generalTrading,
         location: "Worldwide",
-        desc: "With over 12 years of experience in business trade, we help your business to grow and expand,and we help industries to innovate and grow."
+        desc: "Our goal is to help businesses to grow and expand, in an efficient way. With over 12 years of experience in business trade."
     },
     {
         title: "Shipping Line",
@@ -22,7 +22,7 @@ const Industries = [
         id: "shipping",
         imageUrl: shippingLine,
         location: "Bangladesh",
-        desc: "An international logistics agency that facilitates the transportation between suppliers, manufacturers, distributors and retailers. This includes sea freight forwarding. The agency’s mission is to help reduce transit time and shipping costs."
+        desc: "An international logistics agency that facilitates transportation between suppliers, manufacturers, and retailers. Our mission is to help reduce transit time and shipping costs."
     },
     {
         title: "Automatic Label Printing",
@@ -30,7 +30,7 @@ const Industries = [
         id: "printing",
         imageUrl: labelPrinting,
         location: "Bangladesh",
-        desc: "From fancy promotional print products to high-quality product label printing, we offer a broad range of high-quality label printing to promote your business.",
+        desc: "We offer a broad range of high-quality label printing to promote your business. From fancy promotional print products to high-quality product label printing, we have you covered at every stage of the marketing process.",
     },
     {
         title: "Infrastructure & Construction",
@@ -38,7 +38,7 @@ const Industries = [
         id: "infrastructure",
         imageUrl: infrastructure,
         location: "Worldwide",
-        desc: "With more than 12 years of experience and 24 global affiliations, Aptrasco makes building connections with international third-parties, government officials, and top-level management possible."
+        desc: "With more than 12 years of experience and 24 global affiliations, Aptrasco has developed a reputation for its ability to help innovators connect with international third parties, government officials, and top-level management."
     },
     {
         title: "Agriculture",
@@ -46,7 +46,7 @@ const Industries = [
         id: "agriculture",
         imageUrl: agriculture,
         location: "Bangladesh & Malaysia",
-        desc: "We created Malaysia’s leading fruits and vegetables import and export wholesaler."
+        desc: "We started with a simple vision: to import, export, and distribute produce to hotels, restaurants, supermarkets, and many more. We provide you with the best quality and fresh produce."
     },
     {
         title: "Textile & Apparel",
@@ -54,7 +54,7 @@ const Industries = [
         id: "textile",
         imageUrl: textileApparel,
         location: "Bangladesh",
-        desc: "We are experts in Textile & Apparel production. Our companies are known for their craftsmanship, they act as a buying house for international fashion wholesale manufacturers (OEM and ODM) and retailers."
+        desc: "We are experts in textile & apparel production. Our companies are known for their craftsmanship. We work with international fashion wholesale manufacturers (OEM and ODM) and retailers, acting as a buying house."
     }]
 
 
