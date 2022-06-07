@@ -82,7 +82,7 @@ const OfficeCard = () => {
                 </div>
                 <div className="lg:flex lg:inline-flex">
                     <div className="px-12 lg:px-24 pt-6">
-                        <div className="text-md font-semibold">Languages</div>
+                        <div className="text-md font-semibold">Spoken languages</div>
                         <div className="text-md mt-1 font-extralight">{locations.MY.languages[0]}</div>
                         <div className="text-md mt-1 font-extralight">{locations.MY.languages[1]}</div>
                         <div className="text-md mt-1 font-extralight">{locations.MY.languages[2]}</div>
