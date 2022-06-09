@@ -23,6 +23,8 @@ const ContactForm = () => {
         const lastname = data.lastName;
         const phone = data.phone;
         const email = data.email;
+        const hear = data.hear;
+        const industry = data.industry;
         const enquiry = data.enquiry;
 
         let result = {
@@ -30,6 +32,8 @@ const ContactForm = () => {
             lastname,
             phone,
             email,
+            hear,
+            industry,
             enquiry
         };
 
@@ -121,6 +125,43 @@ const ContactForm = () => {
                                 </div>
                                 {errors.email && <p className="text-red-500 text-xs ml-2">{errors.email.message}</p>}
                             </div>
+
+                            <div className="w-full lg:w-1/2 px-0 lg:px-6">
+                                <div className="font-light h-6 mt-3 text-black text-sm leading-8 uppercase"><span className="text-blue-400 mr-1">*</span> How did you hear about us?</div>
+                                <div className="my-2 bg-white p-1 flex border border-gray-400">
+                                    <select
+                                        className="p-1 px-2 text-sm appearance-none outline-none w-full text-gray-800"
+                                        {...register("hear", { required: 'A value is required here' })}>
+                                        <option value='' hidden>Please Select*</option>
+                                        <option value="word of mouth">Word of mouth</option>
+                                        <option value="social media">Social Media</option>
+                                        <option value="a peer referral">Peer Referral</option>
+                                        <option value="a Search engine">Search Engine</option>
+                                        <option value="another way then the others">Other</option>
+                                    </select>
+                                </div>
+                                {errors.hear && <p className="text-red-500 text-xs ml-2">{errors.hear.message}</p>}
+                            </div>
+
+                            <div className="w-full lg:w-1/2 px-0 lg:px-6">
+                                <div className="font-light h-6 mt-3 text-black text-sm leading-8 uppercase"><span className="text-blue-400 mr-1">*</span> What Industry you're interested in?</div>
+                                <div className="my-2 bg-white p-1 flex border border-gray-400">
+                                    <select
+                                        className="p-1 px-2 text-sm appearance-none outline-none w-full text-gray-800"
+                                        {...register("industry", { required: 'A value is required here' })}>
+                                        <option value='' hidden>Please Select*</option>
+                                        <option value="Trading solutions">General Trading</option>
+                                        <option value="Shipping solutions">Shipping Solutions</option>
+                                        <option value="Label Printing">Label Printing</option>
+                                        <option value="Infrastructure and Construction">Infrastructure/Construction</option>
+                                        <option value="Agriculture">Agriculture</option>
+                                        <option value="Textile and Apparel solutions">Textile/Apparel</option>
+                                        <option value="another way then the others">Other...</option>
+                                    </select>
+                                </div>
+                                {errors.industry && <p className="text-red-500 text-xs ml-2">{errors.industry.message}</p>}
+                            </div>
+
                             <div className="w-full lg:w-full px-0 lg:px-6">
                                 <div className="font-light h-6 mt-3 text-black text-sm leading-8 uppercase"><span className="text-blue-400 mr-1">*</span> Your Enquiry:</div>
                                 <div className="my-2 bg-white p-1 flex border border-gray-400">
