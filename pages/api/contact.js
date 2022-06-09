@@ -3,11 +3,11 @@ export default (req, res) => {
     require('dotenv').config()
 
     const transporter = nodemailer.createTransport({
-        host: process.env.MAIL_HOST, // mail.ocunapse.com or mail.aptrasco.com
+        host: process.env.MAIL_HOST_APTRASCO, // mail.aptrasco.com
         port: process.env.MAIL_PORT, // 465
         auth: {
-            user: process.env.MAIL_ADDRESS_TEST,
-            pass: process.env.PASSWORD_TEST
+            user: process.env.MAIL_ADDRESS_APTRASCO,
+            pass: process.env.PASSWORD_APTRASCO
         },
         secureConnection: false, // TLS requires secureConnection to be false
         tls: {
@@ -17,7 +17,7 @@ export default (req, res) => {
     });
 
     const mailData = {
-        from: '"Aptrasco Contact Form" <jochgem@ocunapse.com>', // change to noreply@aptrasco.com
+        from: '"Aptrasco Contact Form" <noreply@aptrasco.com>', // change to noreply@aptrasco.com
         to: 'joevandelft@gmail.com', // change to info@aptrasco.com
         subject: `You have a new contact request from ${req.body.firstname} ${req.body.lastname}`,
         text: req.body.enquiry,
