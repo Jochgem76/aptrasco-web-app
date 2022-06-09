@@ -144,7 +144,7 @@ const ContactForm = () => {
                             </div>
 
                             <div className="w-full lg:w-1/2 px-0 lg:px-6">
-                                <div className="font-light h-6 mt-3 text-black text-sm leading-8 uppercase"><span className="text-blue-400 mr-1">*</span> What Industry you're interested in?</div>
+                                <div className="font-light h-6 mt-3 text-black text-sm leading-8 uppercase"><span className="text-blue-400 mr-1">*</span> What Industry are you interested in?</div>
                                 <div className="my-2 bg-white p-1 flex border border-gray-400">
                                     <select
                                         className="p-1 px-2 text-sm appearance-none outline-none w-full text-gray-800"
