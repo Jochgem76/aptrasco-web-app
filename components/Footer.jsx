@@ -57,18 +57,41 @@ const Footer = () => {
             <hr className="mb-4 opacity-100" />
             <div className="container mx-auto pt-6">
                 <div className="flex flex-wrap">
-                    <div className="w-full p-4  xl:mr-auto xl:w-2/4">
-                        <Image
-                            alt="Aptrasco Logo"
-                            src={logo}
-                            layout="intrinsic"
-                            width={120}
-                            height={81}
-                        />
-                        <p className="mb-4 text-sm">
-                            Leading you into economic victory.</p>
+                    <div className="w-full p-4  md:mr-auto md:w-2/4">
+                        <div className="ml-3">
+                            <Image
+                                alt="Aptrasco Logo"
+                                src={logo}
+                                layout="intrinsic"
+                                width={96}
+                                height={96}
+                            />
+                        </div>
+
+                        <p className="mb-4 text-sm font-semibold">
+                            Leading you into<br/> economic victory.</p>
                         <div className="mb-6">
-                            <p className="text-black text-md font-light"><span className="font-bold">Head Office</span>
+                            <p className="text-black text-xs font-light"><span className="font-bold">Head Office</span>
+                                <br />
+                                J-02-10, Solaris Mont Kiara, Jalan Solaris,
+                                <br />
+                                Mont Kiara, 50480, Kuala Lumpur,
+                                <br />
+                                Malaysia
+                            </p>
+                        </div>
+                        <div className="mb-6">
+                            <p className="text-black text-xs font-light"><span className="font-bold">Operational Office</span>
+                                <br />
+                                23-05, Q Sentral, Jalan Stesen Sentral 2,
+                                <br />
+                                50470 KL Sentral, Kuala Lumpur
+                                <br />
+                                Malaysia
+                            </p>
+                        </div>
+                        <div className="mb-6">
+                            <p className="text-black text-xs font-light"><span className="font-bold">Regional Office</span>
                                 <br />
                                 House 56, Road No 2, Block C
                                 <br />
@@ -78,7 +101,7 @@ const Footer = () => {
                             </p>
                         </div>
                         <div className="mb-4">
-                            <p className="text-black text-md font-light"><span className="font-bold">Contact Details</span>
+                            <p className="text-black text-xs font-light"><span className="font-bold">Contact Details</span>
                                 <br />
                                 <a href="mailto:info@aptrasco.com" className="hover:text-blue-400">info@aptrasco.com</a>
                                 <br />
@@ -103,7 +126,7 @@ const Footer = () => {
                             </Link>
                         </div>
                     </div>
-                    <div className="text-center lg:text-left w-full pt-10 xl:w-1/4">
+                    <div className="text-center md:text-left w-full pt-10 md:w-1/4">
                         <h4 className="mb-8 text-black text-xl font-bold uppercase">
                             Company</h4>
                         <ul>
@@ -112,7 +135,7 @@ const Footer = () => {
                             ))}
                         </ul>
                     </div>
-                    <div className="text-center lg:text-left w-full pt-10 xl:w-1/4">
+                    <div className="text-center md:text-left w-full pt-10 md:w-1/4">
                         <h4 className="mb-8 text-black text-xl font-bold uppercase">
                             Legal</h4>
                         <ul>

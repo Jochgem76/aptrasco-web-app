@@ -73,8 +73,8 @@ const Navbar = () => {
                                 alt="Aptrasco Logo"
                                 src={logo}
                                 layout="intrinsic"
-                                width={85}
-                                height={60}
+                                width={70}
+                                height={70}
                             />
                         </a>
                     </Link>
@@ -93,7 +93,7 @@ const Navbar = () => {
 
                 </div>
                 <div className='md:hidden mr-4' onClick={handleClick}>
-                    {!nav ? <HiDotsVertical fontSize={45} className="text-blue-50 cursor-pointer" /> : <MdClose fontSize={45} className="text-blue-50 cursor-pointer" />}
+                    {!nav ? <HiDotsVertical fontSize={45} className="text-gray-600 cursor-pointer" /> : <MdClose fontSize={45} className="text-gray-600 cursor-pointer" />}
                 </div>
             </div>
 

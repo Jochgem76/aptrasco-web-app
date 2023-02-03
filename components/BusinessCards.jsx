@@ -105,7 +105,7 @@ const Businesses = [
         title: "Aptrasco",
         url: "/businesses/aptrasco",
         id: "aptrasco",
-        logo: aptrasco,
+        logo: null,
         imageUrl: textileApparel,
         location: "Worldwide"
     },

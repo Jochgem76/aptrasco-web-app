@@ -1,16 +1,16 @@
 import SquareCard from "./Cards/SquareCard";
 
-import ImageOne from '../img/Jamuna_4.jpg';
-import ImageTwo from '../img/Jamuna_3.jpg';
+import ImageOneJamunaSquare from '../img/Jamuna_4.jpg';
+import ImageTwoJamunaSquare from '../img/Jamuna_3.jpg';
 
 const JamunaSquareCards = [
     {
         id: 1,
-        imageUrl: ImageOne
+        imageUrl: ImageOneJamunaSquare
     },
     {
         id: 2,
-        imageUrl: ImageTwo
+        imageUrl: ImageTwoJamunaSquare
     }
 ]
 

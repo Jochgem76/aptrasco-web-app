@@ -19,13 +19,14 @@ const ContactPage = ({ }) => {
             <HeaderImage title={Contact.headerTitle} url={Contact.imageUrl} headerUrl={Contact.headerUrl} />
             <Widget
                 title="We'd love to hear from you."
-                sub="Please contact us via email or the contact form below to discuss new business or other queries." />
+                sub="Please contact us via email to discuss new business or other queries." />
+            {/* sub="Please contact us via email or the contact form below to discuss new business or other queries." */}
             <div className="mx-auto px-6 lg:px-20 w-full">
                 <div className="my-4 lg:my-8">
                     <p className="text-center lg:text-left text-black text-lg lg:text-xl font-extralight">Email: <span> <a href="mailto:info@aptrasco.com" className="font-light hover:text-blue-400">info@aptrasco.com</a></span></p>
                 </div>
             </div>
-            <ContactForm />
+            {/* <ContactForm /> Doesn't work with SiteGround, they don't support Node.js */}
         </>
     )
 };

@@ -17,7 +17,7 @@ export default (req, res) => {
     });
 
     const mailData = {
-        from: '"Aptrasco Contact Form" <noreply@aptrasco.com>', // change to noreply@aptrasco.com
+        from: '"Aptrasco Contact Form" <noreply@aptrasco.com>',
         to: 'joevandelft@gmail.com', // change to info@aptrasco.com
         subject: `You have a new contact request from ${req.body.firstname} ${req.body.lastname}`,
         text: req.body.enquiry,

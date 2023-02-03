@@ -18,13 +18,11 @@ const Welcome = () => {
             </div>
             <div className="absolute top-10 lg:top-0 left-0 h-full w-full flex items-center justify-center lg:px-[15px]">
                 <div className="mx-5 lg:ml-20 text-white max-w-[825px] h-auto w-full lg:mt-0">
-                    <h1 className="mb-4 lg:text-left text-4xl lg:text-5xl text-center text-white font-light lg:font-light">
-                        Aptrasco Group
-                    </h1>
+                    <h1 className="mb-4 lg:text-left text-4xl lg:text-5xl text-center text-white font-medium lg:font-extrabold">Aptrasco Group</h1>
                     <p className="lg:text-left text-md lg:text-2xl text-center text-white font-light lg:font-light">
                         A global integrated holding company with a diverse set of businesses across sectors and industries.
                     </p>
-                    <div className="text-center lg:text-left mx-auto mt-6 font-light">
+                    <div className="text-center lg:text-left mx-auto mt-6 font-extrabold">
                         <Link href="/whyus">
                             <a className="inline-flex uppercase">
                                 Find out more

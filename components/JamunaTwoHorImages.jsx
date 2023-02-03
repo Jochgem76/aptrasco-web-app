@@ -1,16 +1,16 @@
 import HorizontalCard from "./Cards/HorizontalCard";
 
-import ImageOne from '../img/Jamuna_1.jpg';
-import ImageTwo from '../img/Jamuna_2.jpg';
+import ImageOneJamuna from '../img/Jamuna_1.jpg';
+import ImageTwoJamuna from '../img/Jamuna_2.jpg';
 
 const JamunaHorCards = [
     {
         id: 1,
-        imageUrl: ImageOne
+        imageUrl: ImageOneJamuna
     },
     {
         id: 2,
-        imageUrl: ImageTwo
+        imageUrl: ImageTwoJamuna
     }
 ]
 

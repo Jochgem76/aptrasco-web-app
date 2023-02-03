@@ -1,16 +1,16 @@
 import HorizontalCard from "./Cards/HorizontalCard";
 
-import ImageOne from '../img/Ajmir_1.jpg';
-import ImageTwo from '../img/Ajmir_2.jpg';
+import imageOne from '../img/Ajmir1.jpg';
+import imageTwo from '../img/Ajmir2.jpg';
 
 const AjmirCards = [
     {
         id: 1,
-        imageUrl: ImageOne
+        imageUrl: imageOne
     },
     {
         id: 2,
-        imageUrl: ImageTwo
+        imageUrl: imageTwo
     }
 ]
 
