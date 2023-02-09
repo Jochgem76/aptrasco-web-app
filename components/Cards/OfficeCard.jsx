@@ -27,7 +27,7 @@ const locations = {
         short: "Operational Office",
         addressLineOne: "23-05, Q Sentral, Jalan Stesen Sentral 2,",
         addressLineTwo: "50470 KL Sentral, Kuala Lumpur",
-        phoneOne: "+60 (0) 36 413 48 68",
+        phoneOne: "+60 (0) 34 812 76 23",
         phoneTwo: "",
         reach: ["Regional Asia", "Southeast Asia", "Europe", "North America"],
         languages: ["Malay", "Chinese", "English"],
